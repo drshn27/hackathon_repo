@@ -15,8 +15,8 @@ from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel, Field
 import pandas as pd
 from typing import Optional
-from github_service import fetch_daily_commits
-from summary_service import generate_daily_summary, DEFAULT_MODEL
+from github_summary.github_service import fetch_daily_commits
+from github_summary.summary_service import generate_daily_summary, DEFAULT_MODEL
 
 # ─── Paths ───────────────────────────────────────────────────────────────────
 MODEL_DIR = os.path.dirname(os.path.abspath(__file__))
