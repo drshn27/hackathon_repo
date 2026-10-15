@@ -9,7 +9,6 @@ Python services for retrieving an employee's daily GitHub activity and generatin
 ## Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
 - [How It Works](#how-it-works)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
